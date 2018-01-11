@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book App</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/icons.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/modules/error.css">
+    <link rel="stylesheet" href="./styles/modules/header.css">
+    <link rel="stylesheet" href="./styles/modules/book-main.css">
+    <link rel="stylesheet" href="./styles/modules/detail-main.css">
+    <link rel="stylesheet" href="./styles/modules/form-main.css">
+    <link rel="stylesheet" href="./styles/modules/admin-main.css">
+    <link rel="stylesheet" href="./styles/modules/footer.css">
+
+
+    <!-- handlebars templates -->
+
+</head>
+
+<body>
+    <h1>Books Ahoy</h1>
+
+    <header>
+        <div class="header-content">
+            <a href="/">
+                <img src="http://www.bootcamps.in/wp-content/uploads/2015/06/code-fellows-shield.png" alt="logo">
+            </a>
+            <h1>Code Fellows Books</h1>
+            <div class="icon-menu"></div>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li>
+                    <a href="/">home</a>
+                </li>
+                <li>
+                    <a href="/books/new">add book</a>
+                </li>
+                <li>
+                    <a href="/login">login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- pages/views -->
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <!-- load scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+    <script src="scripts/views/book-list-view.js"></script>
+    <script src="scripts/views/book-detail-view.js"></script>
+    <script src="scripts/views/book-create-view.js"></script>
+    <script src="scripts/views/book-update-view.js"></script>
+    <script src="scripts/views/error-view.js"></script>
+    <script src="scripts/views/admin-view.js"></script>
+    
+    <script src="scripts/models/book.js"></script>
+    <script src="scripts/controllers/routes.js"></script>
+
+    <script src="scripts/models/book.js"></script>
+    <script src="scripts/controllers/routes.js"></script>
+
+</body>
+
+</html>
